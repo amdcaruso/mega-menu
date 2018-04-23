@@ -12,54 +12,77 @@ class MegaMenu extends Component {
     navItems = [
     {
         name: 'Energy',
-        icon: 'fa-wrench',
+        icon: 'fa-bolt',
+        route: '/features/currency'
+        
+    },
+    {
+        name: 'Shops',
+        icon: 'fa-shopping-cart',
+        route: '/counter'
+    },
+    {
+        name: 'Travel',
+        icon: 'fa-plane',
         route: '/account',
         children: [
             {
-                name: 'Change Password',
-                icon: 'fa-unlock',
+                name: 'Jet2',
+                icon: 'fa-plane',
                 route: '/account/password'
             },
             {
-                name: 'Another Parent',
-                icon: 'fa-credit-card',
+                name: 'TUI',
+                icon: 'fa-plane',
+                route: '/account/password'
+            },
+            {
+                name: 'easyJet',
+                icon: 'fa-plane',
+                route: '/account/password'
+            },
+            {
+                name: 'easyJet',
+                icon: 'fa-plane',
+                route: '/account/password'
+            },
+            {
+                name: 'Norwegian Air',
+                icon: 'fa-plane',
+                route: '/account/password'
+            },
+            {
+                name: 'British Airways',
+                icon: 'fa-plane',
                 route: '/account/payment',
+                
+            },
+            {
+                name: 'Services',
+                icon: 'fa-history',
+                route: '/account/history',
                 children: [
                     {
-                        name: 'Payment Settings',
+                        name: 'easyJet',
                         icon: 'fa-credit-card',
                         route: '/account/payment',
                     },
                     {
-                        name: 'Yet Another Parent',
+                        name: 'Norwegian Air',
                         icon: 'fa-credit-card',
                         route: '/account/payment',
                         children: [
                             {
-                                name: 'Payment Settings',
+                                name: 'British Airways',
                                 icon: 'fa-credit-card',
                                 route: '/account/payment',
                             }
                         ]
                     }
                 ]
-            },
-            {
-                name: 'Transaction History',
-                icon: 'fa-history',
-                route: '/account/history'
             }
         ]
-    },
-    {
-        name: 'Shops',
-        icon: 'fa-car',
-        route: '/counter'
-    },
-    {
-        name: 'Travel',
-        icon: 'fa-money',
-        route: '/features/currency'
+        
     }];
 
     componentWillMount(){
