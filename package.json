@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://resolver-conversion-team.netlify.com/",
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "font-awesome": "^4.7.0",
     "history": "^4.6.3",
     "prop-types": "^15.5.10",
